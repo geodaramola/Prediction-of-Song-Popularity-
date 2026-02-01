@@ -41,9 +41,6 @@ Build a machine learning model to predict song popularity
 - Provide insights to guide future feature engineering efforts
 
 
-Target variable: song_popularity
-
-
 
 
 
