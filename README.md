@@ -1,4 +1,3 @@
-Prediction-of-Song-Popularity-
 Predicting Song Popularity with Engineered Audio Features
 📌 Project Overview
 
