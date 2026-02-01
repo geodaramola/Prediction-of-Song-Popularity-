@@ -1,29 +1,30 @@
 Predicting Song Popularity with Engineered Audio Features
+
 📌 Project Overview
 
 Bassline.io is exploring whether its existing engineered audio features can effectively predict the popularity of a song. This project evaluates the usefulness of those features by building and interpreting a machine learning model to predict song popularity.
 
 The goal is not to deploy a production-ready model, but rather to assess:
 
-Whether the current feature set has predictive value
+- Whether the current feature set has predictive value
 
-Which features contribute most to song popularity
+- Which features contribute most to song popularity
 
-What limitations exist in the current feature engineering approach
+- What limitations exist in the current feature engineering approach
 
 🧠 Business Problem
 
 The data science team at Bassline.io has previously engineered several audio-related features, including:
 
-Danceability
+- Danceability
 
-Energy
+- Energy
 
-Acousticness
+- Acousticness
 
 Before investing further effort into feature development, the team wants to understand:
 
-Are these features actually useful for predicting song popularity?
+- Are these features actually useful for predicting song popularity?
 
 To answer this, we frame the task as a supervised regression problem where song popularity is predicted using the existing engineered features.
 
@@ -31,23 +32,14 @@ To answer this, we frame the task as a supervised regression problem where song 
 
 Build a machine learning model to predict song popularity
 
-Evaluate model performance using Mean Squared Error (MSE)
+- Evaluate model performance using Mean Squared Error (MSE)
 
-Interpret model results to determine feature usefulness
+- Interpret model results to determine feature usefulness
 
-Identify limitations of the current feature set
+- Identify limitations of the current feature set
 
-Provide insights to guide future feature engineering efforts
+- Provide insights to guide future feature engineering efforts
 
-📊 Dataset
-
-~20,000 songs
-
-Each row represents a song
-
-Includes:
-
-Engineered audio features (e.g. danceability, energy, acousticness)
 
 Target variable: song_popularity
 
@@ -125,23 +117,5 @@ Popularity is influenced by many non-audio factors not captured here
 
 Model is not intended for production use
 
-🚀 Future Work
 
-Engineer additional features (e.g. tempo dynamics, lyrical sentiment)
-
-Incorporate user engagement or playlist data
-
-Explore nonlinear models with stronger interpretability tools
-
-Revisit target definition (e.g. popularity buckets vs continuous score)
-
-🛠️ Tech Stack
-
-Python
-
-pandas, numpy
-
-scikit-learn
-
-matplotlib / seaborn
 
