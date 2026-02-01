@@ -43,79 +43,7 @@ Build a machine learning model to predict song popularity
 
 Target variable: song_popularity
 
-🧪 Methodology
 
-Exploratory Data Analysis
-
-Distribution of song popularity
-
-Feature correlations
-
-Detection of outliers and skewness
-
-Baseline Modeling
-
-Simple regression model to establish a performance benchmark
-
-Model Development
-
-Train regression models using engineered features
-
-Compare performance across different modeling approaches
-
-Evaluation
-
-Primary metric: Mean Squared Error (MSE)
-
-Residual and error analysis to understand model behavior
-
-Interpretation
-
-Feature importance analysis
-
-Examination of which features drive predictions
-
-Identification of weak or redundant features
-
-Exploration of Alternatives
-
-Feature selection techniques
-
-Dimensionality reduction (e.g. PCA)
-
-Discussion of trade-offs between interpretability and performance
-
-📈 Evaluation Metric
-
-Mean Squared Error (MSE) is used to assess predictive performance:
-
-Penalizes larger errors more heavily
-
-Appropriate for continuous popularity scores
-
-Interpreted alongside qualitative error analysis rather than optimized blindly
-
-🔍 Key Insights (Example)
-
-(Replace with your actual findings)
-
-Danceability and energy showed stronger predictive power than acousticness
-
-Overall model performance suggests limited explanatory power from the current feature set alone
-
-Prediction errors indicate difficulty modeling extremely popular or unpopular songs
-
-Feature set likely lacks contextual or behavioral data needed for stronger predictions
-
-⚠️ Limitations
-
-Model is trained only on pre-engineered audio features
-
-No listener behavior, genre context, or temporal effects included
-
-Popularity is influenced by many non-audio factors not captured here
-
-Model is not intended for production use
 
 
 
